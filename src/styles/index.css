@@ -1,0 +1,47 @@
+body {
+  @apply bg-white text-gray-800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+a {
+  @apply text-blue-500 hover:text-blue-700;
+}
+
+button {
+  @apply bg-blue-500 text-white font-semibold py-2 px-4 rounded;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.flex {
+  @apply flex;
+}
+
+.hidden {
+  @apply hidden;
+}
+
+.show {
+  @apply block;
+}
+
+.spinner {
+  @apply border-4 border-t-4 border-gray-200 rounded-full animate-spin;
+}
+
+.mt-4 {
+  @apply mt-4;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.p-4 {
+  @apply p-4;
+}
